@@ -1,0 +1,26 @@
+export type Settings = {
+  store_name: string;
+  store_logo_url: string | null;
+  favicon_url: string | null;
+  primary_color: string;
+  secondary_color: string | null;
+  hero_title: string;
+  hero_subtitle: string;
+  hero_cta_primary_text: string;
+  hero_cta_primary_url: string;
+  hero_cta_secondary_text: string;
+  hero_cta_secondary_url: string;
+  contact_email: string;
+  contact_phone: string | null;
+  address: string | null;
+  instagram: string | null;
+  facebook: string | null;
+  tiktok: string | null;
+  shipping_enabled: boolean;
+  shipping_flat_rate: number | null;
+  tax_rate: number | null;
+  currency: string;
+  maintenance_mode: boolean;
+  seo_title: string | null;
+  seo_description: string | null;
+};
