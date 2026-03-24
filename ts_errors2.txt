@@ -1,0 +1,17 @@
+app/admin/customers/page.tsx(11,97): error TS2339: Property 'getAdminCustomers' does not exist on type '{ getCategories: () => Promise<Category[]>; getProducts: () => Promise<Product[]>; getFeaturedProducts: () => Promise<Product[]>; getProductBySlug: (slug: string) => Promise<...>; ... 12 more ...; getAdminAnalytics: () => Promise<...>; }'.
+app/admin/customers/page.tsx(44,27): error TS2339: Property 'map' does not exist on type '{}'.
+app/admin/customers/page.tsx(44,32): error TS7006: Parameter 'customer' implicitly has an 'any' type.
+app/admin/customers/page.tsx(62,27): error TS2339: Property 'length' does not exist on type '{}'.
+app/admin/page.tsx(71,57): error TS2339: Property 'activeProducts' does not exist on type 'AdminStats'.
+app/admin/page.tsx(73,23): error TS2339: Property 'lowStockAlerts' does not exist on type 'AdminStats'.
+app/admin/page.tsx(88,27): error TS2339: Property 'salesByMonth' does not exist on type 'AnalyticsSummary'.
+app/admin/page.tsx(88,45): error TS7006: Parameter 'month' implicitly has an 'any' type.
+app/admin/page.tsx(88,52): error TS7006: Parameter 'i' implicitly has an 'any' type.
+app/admin/page.tsx(112,27): error TS2339: Property 'id' does not exist on type '{ name: string; sales: number; }'.
+app/admin/page.tsx(114,22): error TS2339: Property 'salesCount' does not exist on type '{ name: string; sales: number; }'.
+app/admin/page.tsx(118,68): error TS2339: Property 'revenue' does not exist on type '{ name: string; sales: number; }'.
+app/dashboard/wishlist/page.tsx(17,117): error TS2339: Property 'getWishlist' does not exist on type '{ getCategories: () => Promise<Category[]>; getProducts: () => Promise<Product[]>; getFeaturedProducts: () => Promise<Product[]>; getProductBySlug: (slug: string) => Promise<...>; ... 12 more ...; getAdminAnalytics: () => Promise<...>; }'.
+app/dashboard/wishlist/page.tsx(36,32): error TS2339: Property 'map' does not exist on type '{}'.
+app/dashboard/wishlist/page.tsx(36,36): error TS7006: Parameter 'w' implicitly has an 'any' type.
+app/dashboard/wishlist/page.tsx(39,13): error TS7006: Parameter 'w' implicitly has an 'any' type.
+app/dashboard/wishlist/page.tsx(52,28): error TS7006: Parameter 'item' implicitly has an 'any' type.
